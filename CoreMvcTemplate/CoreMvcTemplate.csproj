@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\contents\slide\1.jpg" />
+    <None Include="wwwroot\contents\slide\2.jpg" />
+    <None Include="wwwroot\contents\slide\3.jpg" />
+    <None Include="wwwroot\contents\slide\4.jpg" />
+    <None Include="wwwroot\contents\slide\5.jpg" />
+    <None Include="wwwroot\contents\slide\6.jpg" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\main.css" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery.js" />
+    <None Include="wwwroot\js\main.js" />
+  </ItemGroup>
+
+</Project>
