@@ -24,7 +24,6 @@ D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\CoreMvcTem
 D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\Razor\Views\Home\Hakkimizda.cshtml.g.cs
 D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\Razor\Views\Home\TH_Test.cshtml.g.cs
-D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\Razor\Views\Product\Detail.cshtml.g.cs
 D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Footer\Default.cshtml.g.cs
 D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Header\Default.cshtml.g.cs
 D:\calismalar\CoreMvcTemplate\CoreMvcTemplate\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

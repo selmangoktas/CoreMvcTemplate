@@ -1,24 +1,44 @@
-﻿<!doctype html>
-<html lang="en">
+﻿
+<!DOCTYPE HTML>
+<!--
+    Full Motion by TEMPLATED
+    templated.co @@templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.79.0">
-    <title>Carousel Template · Bootstrap v5.0</title>
-    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/css/main.css" rel="stylesheet" />
-    <link rel="canonical" href="@ViewBag.canonical" />
+    <title>Full Motion</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
-<body>
+<body id="top">
+
+
     @await Component.InvokeAsync("Header")
-    <main>
-        @RenderBody()
-        @await Component.InvokeAsync("Footer")
-    </main>
-    <script src="~/js/jquery.js"></script>
-    <script src="~/js/bootstrap.min.js"></script>
-    <script src="~/js/main.js"></script>
+
+
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            @RenderBody()
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    @await Component.InvokeAsync("Footer")
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/jquery.poptrox.min.js"></script>
+    <script src="/assets/js/skel.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+
 </body>
 </html>
